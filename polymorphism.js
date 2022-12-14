@@ -13,20 +13,19 @@
 // makeSound(new Duck())
 // makeSound(new Chicken())
 
-
 // version 2.0，对象的多态
 
 const makeSound = (animal) => {
-  animal.sound();
-};
+  animal.sound()
+}
 
-const Duck = function() {}
+const Duck = function () {}
 
 Duck.prototype.sound = () => {
   console.log('嘎嘎嘎')
 }
 
-const Chicken = function() {}
+const Chicken = function () {}
 
 Chicken.prototype.sound = () => {
   console.log('咯咯咯')
