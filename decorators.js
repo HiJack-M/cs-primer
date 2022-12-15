@@ -1,5 +1,13 @@
 // https://zh.javascript.info/call-apply-decorators#yan-shi-zhuang-shi-qi
 
+// 装饰器核心代码
+let wrapper = function () {
+  return func.apply(this, arguments)
+}
+return wrapper
+
+// 以下是各种例子
+
 let worker = {
   slow(x, y) {
     console.log(`Called with ${x} and ${y}`)
