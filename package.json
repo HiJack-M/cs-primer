@@ -1,0 +1,22 @@
+{
+  "name": "cs-primer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiJack-M/cs-primer.git"
+  },
+  "author": "HiJack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HiJack-M/cs-primer/issues"
+  },
+  "homepage": "https://github.com/HiJack-M/cs-primer#readme",
+  "devDependencies": {
+    "eslint": "^8.30.0"
+  }
+}
