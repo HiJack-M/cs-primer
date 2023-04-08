@@ -1,6 +1,5 @@
 /**
  * @description: Singleton
- * @return {*}
  */
 // Singleton is a design pattern that ensures that a class has only one immutable instance. Said simply, the singleton pattern consists of an object that can't be copied or modified.
 
