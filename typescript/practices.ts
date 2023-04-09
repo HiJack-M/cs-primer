@@ -1,3 +1,5 @@
+// https://medium.com/front-end-weekly/4-typescript-coding-challenges-51badc881458
+
 /**
  * @description: Get the variable type
  */
