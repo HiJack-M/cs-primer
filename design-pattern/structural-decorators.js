@@ -163,3 +163,17 @@ fff1000(3) // (节流，尚未到 1000ms)
 // ...输出 3，中间值 2 被忽略
 
 // P.S. 参数（arguments）和传递给 f1000 的上下文 this 应该被传递给原始的 f。
+
+console.log('---')
+
+// 在 ES7 中，通过一个 @ 语法糖轻松地给一个类装上装饰器
+// function classDecorator(target) {
+//   target.hasDecorator = true
+//   return target
+// }
+
+// // 将装饰器“安装”到Button类上
+// @classDecorator
+// class Button {
+//   // Button类的相关逻辑
+// }
