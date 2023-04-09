@@ -1,3 +1,9 @@
+/**
+ * @description: Decorators
+ * lets you attach new behaviors to objects by placing them inside wrapper objects that contain the behaviors.
+ * 在不改变原对象的基础上，通过对其进行包装拓展，使原有对象可以满足用户的更复杂需求
+ */
+
 // https://zh.javascript.info/call-apply-decorators#yan-shi-zhuang-shi-qi
 
 // 装饰器核心代码
