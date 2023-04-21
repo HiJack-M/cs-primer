@@ -37,9 +37,8 @@ rabbit.__proto__ = animal // 设置 rabbit.[[Prototype]] = animal
 
 function Rabbit() {}
 
-/* 默认的 prototype 
+// 默认的 prototype
 Rabbit.prototype = { constructor: Rabbit }
- */
 
 // summary:
 
